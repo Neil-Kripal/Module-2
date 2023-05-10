@@ -1,0 +1,36 @@
+span {
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basis {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item-1, .flex-item-2, .flex-item-3, .flex-item-4 {
+    flex-basis:50%;
+}
+
+.flex-direction {
+    display: flex;
+    flex-direction: column;
+}

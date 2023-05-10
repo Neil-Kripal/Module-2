@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a, a:link, a:visited {
+  color: blue;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  border: none;
+}
+
+a:hover, a:active, a:focus {
+  color:red;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid red;
+}
+
+a:visited {
+  color: purple;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+article {
+    margin: 20px 0;
+    padding: 20px;
+    border: 10px solid black;
+    border-radius: 8px;    
+}
+
+.style-me1 {
+    color: red;
+}
+
+#style-me2 {
+    color: blue;
+}
+
+.style-me1, #style-me2 {
+    color: purple; 
+}
+
+  div p {
+    background-color: red;
+  }
+
+  div > p {
+    background-color: red;
+  }
+
+  .boxes {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  
+  .boxclass {
+    width: max-content;
+    height: auto;
+    padding-right: 10px;
+    border: 5px solid red;
+    display: flex;
+    box-sizing: border-box;
+  }
+  
+  .boxclass .boxes {
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+  }
+
+  .box1 {
+    width: 100px;
+    height: 50px;
+    overflow: overflow;
+    display: inline-block;
+  }
+
+  .box2 {
+    width: 100px;
+    height: 50px;
+    overflow: visible;
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .box3 {
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .box4 {
+    width: 100px;
+    height: 50px;
+    overflow: scroll;
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .box5 {
+    width: 100px;
+    height: 50px;
+    overflow: auto;
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .box {
+      text-align: center;
+      width: auto;
+      height: auto;
+      background: url(https://img.freepik.com/free-vector/cream-cube-pattern-background-3d-geometric-shape-vector_53876-157773.jpg) no-repeat;
+      background-size:cover;
+  }
+
+  .position-absolute {
+    background-color: #ccc;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+  }
+
+  .position-relative {
+    background-color: #ccc;
+    position: relative;
+  }
+
+  .position-sticky {
+    font-size: large;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #ccc;
+    position: sticky;
+  }
+
+  .text-style {
+  color: blue;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  }
+  
+  .calc-style1 {
+    width: 100vw;
+    background-color: yellow;
+    height: 100px;
+  }
+
+  .calc-style2 {
+    width: calc(100vw - 100px);
+    background-color: yellow;
+    height: 100px;
+  }
+  
